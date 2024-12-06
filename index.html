@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Joel Mwenesi Lugadiru </h1>
+        <img src="joel.jpg" alt="Profile Image">
+    </header>
+    <main>
+        <section id="bio">
+            <h2>Bio</h2>
+            <p>Joel Mwenesi Lugadiru is a passionate software developer with a focus on building clean, efficient, and scalable applications. With experience in  Python, JavaScript, React, etc.</p>
+            
+            <p id="moreBio" style="display: none;"> I enjoys solving complex problems and continuously learning new technologies to stay at the cutting edge of development. In addition to coding,I have a strong interest in  AI, web development, mobile apps. Outside of programming, I enjoys  reading, gaming, open-source contributions</p>
+            <button id="readMoreBtn">Read More</button>
+		</section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Project 1: <a href="#">Link to project</a></li>
+                <li>Project 2: <a href="#">Link to project</a></li>
+                <li>Project 3: <a href="#">Link to project</a></li>
+            </ul>
+        </section>
+        <section id="newsletter">
+            <h2>Please Contact me </h2>
+            <form id="newsletterForm">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Contact me</button>
+                <p id="errorMessage" class="error" style="display: none;">Please fill out both fields correctly.</p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Joel Mwenesi Lugadiru. All rights reserved.</p>
+    </footer>
+</body>
+</html>
